@@ -1,5 +1,5 @@
 from pathlib import Path
-path1=Path("bank management system.py")
+path1=Path("kiran basic bms.py")
 
 print(path1)#prints file name
 
