@@ -130,6 +130,7 @@ def depositAndWithdraw(num1,num2):
                     amount = int(input("Enter the amount to withdraw : "))
                     if amount <= item.deposit :
                         item.deposit -=amount
+                        print("withdraw sucessfull")
                     else :
                         print("You cannot withdraw larger amount")
                 
@@ -224,7 +225,7 @@ while ch != 8:
         modifyAccount(num)
         print("\n")
     elif ch == '8':
-        print("\tThanks for using bank managemnt system")
+        print("\tThanks for using kiran bank managemnt system")
         break
     else :
         print("Invalid choice")
